@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54a5b18d-43d9-4b97-8c0d-c99b91168047" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jdbc/com/barron/JdbcDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jdbc/com/barron/JdbcDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jdbc/com/barron/utils/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jdbc/db.properties" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JdbcDemo02">
+  <component name="RunManager" selected="Application.JdbcDemo01">
     <configuration name="JdbcDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.barron.JdbcDemo01" />
       <module name="jdbc" />
@@ -104,8 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JdbcDemo02" />
         <item itemvalue="Application.JdbcDemo01" />
+        <item itemvalue="Application.JdbcDemo02" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588766035950</updated>
-      <workItem from="1588766037490" duration="5065000" />
+      <workItem from="1588766037490" duration="5326000" />
     </task>
     <servers />
   </component>
