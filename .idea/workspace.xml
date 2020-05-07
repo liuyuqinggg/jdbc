@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54a5b18d-43d9-4b97-8c0d-c99b91168047" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc/com/barron/JdbcDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc/com/barron/JdbcDemo02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc/com/barron/utils/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc/db.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/c3p0-0.9.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-pool-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mchange-commons-java-0.2.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/barron/SqlInject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/barron/TestDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/barron/TestInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/barron/TestQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/barron/TestTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/barron/TestUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/barron/pool/C3P0Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/barron/pool/DBCPUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/barron/pool/TestC3p0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/barron/pool/TestDbcp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dbcpconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/df00a55f-e77f-40ff-8115-d1b881fc6fb5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/df00a55f-e77f-40ff-8115-d1b881fc6fb5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +48,16 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
     </expand>
     <select />
   </component>
@@ -51,17 +80,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IDEA\jdbc\src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.barron.pool" />
       <recent name="com.barron" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\IDEA\jdbc\lib" />
+      <recent name="F:\IDEA\jdbc\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,9 +110,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JdbcDemo01">
-    <configuration name="JdbcDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.barron.JdbcDemo01" />
+  <component name="RunManager" selected="Application.TestDbcp">
+    <configuration name="SqlInject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.barron.SqlInject" />
       <module name="jdbc" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +124,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.barron.JdbcDemo02" />
+    <configuration name="TestC3p0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.barron.pool.TestC3p0" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.barron.pool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDbcp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.barron.pool.TestDbcp" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.barron.pool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.barron.TestDelete" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.barron.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTransaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.barron.TestTransaction" />
       <module name="jdbc" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JdbcDemo01" />
-        <item itemvalue="Application.JdbcDemo02" />
+        <item itemvalue="Application.TestDbcp" />
+        <item itemvalue="Application.TestC3p0" />
+        <item itemvalue="Application.SqlInject" />
+        <item itemvalue="Application.TestTransaction" />
+        <item itemvalue="Application.TestDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +211,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588766035950</updated>
-      <workItem from="1588766037490" duration="5326000" />
+      <workItem from="1588766037490" duration="6082000" />
+      <workItem from="1588855337609" duration="5558000" />
     </task>
     <servers />
   </component>
@@ -147,10 +224,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/barron/SqlInject.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
